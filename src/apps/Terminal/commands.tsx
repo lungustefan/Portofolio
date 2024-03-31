@@ -69,11 +69,11 @@ export const commands = [
                 </p>
                 <p className="text-gray-300 w-1/2">
                     <span className="gradient-text">OS:</span> PepsiOS 1.0.0 x64<br/>
-                    <span className="gradient-text">Host:</span> xshadow<br/>
+                    <span className="gradient-text">Host:</span> xardam<br/>
                     <span className="gradient-text">Uptime:</span> {uptime}<br/>
                     <span className="gradient-text">Resolution:</span> {window.innerWidth}x{window.innerHeight}<br/>
-                    <span className="gradient-text">CPU: </span> AMD Ryzen 7 7700 (16) @ 5.3GHz<br/>
-                    <span className="gradient-text">GPU:</span> AMD Radeon RX 5700 XT<br/>
+                    <span className="gradient-text">CPU: </span> Intel I 7 7700 (16) @ 5.3GHz<br/>
+                    <span className="gradient-text">GPU:</span> Nvdia Geforce RTX 3060<br/>
                     <span className="gradient-text">Memory:</span> 31864MB DDR5<br/>
                 </p>
             </div>
