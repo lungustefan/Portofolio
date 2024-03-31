@@ -34,13 +34,13 @@ export default function Terminal() {
                 }}/>
               })}
               <p>
-                visitor@maxluc:~$ 
+                visitor@ardam:~$ 
                 <input id={termInputId} className='ml-2 bg-zinc-800 focus:outline-none' style={{width: inputData.length === 0 ? 1 : `${inputData.length}ch`}} placeholder='' value={inputData} onChange={(value) => {inputHandler(value.target.value)}} onKeyDown={(key) => {
                     if (key.keyCode === 13) { // had to use deprecated keyCode because it doesn't work on some mobile devices
                       setInputData(inputData.toLowerCase().trimEnd());
                       if (inputData.length === 0) return;
                       const command = commands.filter((value) => value.name === inputData)[0];
-                      const comp = () => {return <p>visitor@maxluc:~$ {inputData}</p>}
+                      const comp = () => {return <p>visitor@ardam:~$ {inputData}</p>}
                       if (!command) {
                         setHistory([...history, comp, () => {return <p className='text-red-500'>{inputData}: command not found</p>}]);
                         setInputData('');
