@@ -73,7 +73,7 @@ const projects: Project[] = [
         skillsName: ["Preact", "TailwindCSS", "Vite"]
     },
     {
-        title: "Shadow's Dash (2023)",
+        title: "Yama's Dash (2023)",
         subtitleEN: "Fully featured modern client panel for Pterodactyl-based hosts",
         subtitleFR: "Panel client complet et moderne pour les hébergeurs basés sur Pterodactyl",
         descriptionEN:
